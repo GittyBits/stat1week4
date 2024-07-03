@@ -8,11 +8,11 @@ def index():
 
 @app.route('/sales')
 def sales():
-    return render_template('templates/sales.html')
+    return render_template('sales.html')
 
 @app.route('/economic')
 def economic():
-    return render_template('/templates/economic.html')
+    return render_template('economic.html')
 
 @app.route('/sales_analysis', methods=['POST'])
 def sales_analysis():
