@@ -8,7 +8,7 @@ def index():
 
 @app.route('/sales')
 def sales():
-    return render_template('sales.html')
+    return render_template('templates/sales.html')
 
 @app.route('/economic')
 def economic():
