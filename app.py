@@ -12,7 +12,7 @@ def sales():
 
 @app.route('/economic')
 def economic():
-    return render_template('economic.html')
+    return render_template('/templates/economic.html')
 
 @app.route('/sales_analysis', methods=['POST'])
 def sales_analysis():
